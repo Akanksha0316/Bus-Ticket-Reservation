@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Seat</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Book Your Seat</h1>
+    <form method="POST">
+        <label>Name:</label>
+        <input type="text" name="name" required>
+        <label>Phone:</label>
+        <input type="text" name="phone" required>
+        <button type="submit">Confirm Booking</button>
+    </form>
+</body>
+</html>
