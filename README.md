@@ -19,3 +19,4 @@ This is a simple **Bus Ticket Reservation System** built using **Flask (Python) 
    ```bash
    git clone https://github.com/yourusername/bus_ticket_reservation.git
    cd bus_ticket_reservation
+ vist 'http://127.0.0.1:5000/'
